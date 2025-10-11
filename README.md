@@ -21,19 +21,6 @@ Key wins:
 
 ## Project Structure
 
-```
-LocalLLM-hotels/
-│
-├── main.py              # CLI loop + LLM
-├── vector.py            # CSV parsing, chunking, embedding setup
-├── tripadvisor_hotel_reviews.csv
-├── chroma_langchain_db/
-├── requirements.txt
-├── PROJECT_DOCUMENTATION.md
-└── README.md
-```
-
-
 ## Installation Guide
 
 ### 1 Prerequisites
