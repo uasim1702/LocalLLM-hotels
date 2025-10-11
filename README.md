@@ -1,4 +1,3 @@
-```
 # LocalLLM-Hotels  
 *A Local Retrieval-Augmented Generation (RAG) System for Hotel Reviews*
 
