@@ -45,7 +45,7 @@ If the CSV changes or you want a fresh index:
 
 8) Tools and learning sources
 I built this project by combining several learning resources:
-- Watched those YouTube tutorials: https://www.youtube.com/watch?v=pTaSDVz0gok, https://www.youtube.com/watch?v=osKyvYJ3PRM&t=1136s, 
+- Watched those YouTube tutorials: https://www.youtube.com/watch?v=pTaSDVz0gok, https://www.youtube.com/watch?v=osKyvYJ3PRM&t=1136s, https://www.youtube.com/watch?v=zYGDpG-pTho
 - Read the book *“Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow”* about a month ago, which helped me understand the basics of machine learning and training concepts.  
 - Used ChatGPT for most of the documentation writing, mistake explanations, and general guidance while developing the code.
 
