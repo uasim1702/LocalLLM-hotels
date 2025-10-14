@@ -1,6 +1,6 @@
 # LocalLLM-Hotels — Retrieval-Augmented Generation on a local CSV
 
-# A small RAG setup that answers questions about hotel reviews from a local CSV.No internet. Local embeddings + local LLM via Ollama.
+- A small RAG setup that answers questions about hotel reviews from a local CSV.No internet. Local embeddings + local LLM via Ollama.
 
 1) Note:
 - Most hotels in this dataset are located in the United States, with a few entries from Europe.  
