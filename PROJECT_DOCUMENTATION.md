@@ -1,15 +1,10 @@
 # LocalLLM-Hotels — Retrieval-Augmented Generation on a local CSV
 
-- Author: Uasim Hallak
-- Date: October 2025
+- A small RAG setup that answers questions about hotel reviews from a local CSV.No internet. Local embeddings + local LLM via Ollama.
 
-# Note:
+1) Note:
 Most hotels in this dataset are located in the United States, with a few entries from Europe.  
 The data comes from the Datafiniti Hotel Reviews CSV (7282_1.csv), which contains real TripAdvisor-style reviews with hotel names and locations.
-
-1) What this is:
-- A small RAG setup that answers questions about hotel reviews from a local CSV.
-- No internet. Local embeddings + local LLM via Ollama.
 
 2) Data:
 - CSV: 7282_1.csv
@@ -23,7 +18,7 @@ The data comes from the Datafiniti Hotel Reviews CSV (7282_1.csv), which contain
 3) How it works:
 - CSV -> vector.py -> (split into chunks) -> embeddings (Ollama mxbai-embed-large) -> Chroma DB (local) -> main.py -> retrieve top-k chunks -> prompt LLM (llama3.2, temp=0.0) -> answer grounded in reviews.
 
-4) Notes:
+4) Characteristics:
 - Current split produced ~38.5k chunks (chunk_size=600, overlap=100).
 - First run builds the DB and saves it in ./chroma_langchain_db/.
 - Next runs reuse the DB.
